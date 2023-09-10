@@ -1,5 +1,4 @@
 <?php
-
 class Controller{
     public function model($model) {
         if(file_exists(_DIR_ROOT.'/models/'.$model.'.php')){
@@ -16,8 +15,9 @@ class Controller{
     public function render($view, $data=[]) {
         extract($data);
         
-        if(file_exists(_DIR_ROOT.'/views/'.$view.'.php')) {
-            require_once _DIR_ROOT.'/views/'.$view.'.php';
+        if(file_exists(_DIR_ROOT.'/views/'.$view.'.php') || file_exists(_DIR_ROOT.'/admin/pages/'.$view.'.php')) {
+            $page = _DIR_ROOT.'/views/'.$view.'.php' ?? _DIR_ROOT.'/admin/pages/'.$view.'.php';
+            require_once $page;
         }
     }
 }

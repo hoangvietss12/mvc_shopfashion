@@ -83,7 +83,7 @@
                             </li>
                             <li class="
                                 <?php if(isset($_REQUEST['controller']) && $_REQUEST['controller']=='news') echo 'active'; ?>
-                            "><a href="<?php echo _WEB_ROOT.'/news'; ?>">Tin tức</a></li>
+                            "><a href="<?php echo _WEB_ROOT.'/index.php?controller=news'; ?>">Tin tức</a></li>
                             <li class="
                                 <?php if(isset($_REQUEST['controller']) && $_REQUEST['controller']=='contact') echo 'active'; ?>
                             "><a href="<?php echo _WEB_ROOT.'/contact'; ?>">Liên hệ</a></li>

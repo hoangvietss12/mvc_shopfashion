@@ -74,12 +74,6 @@
                                 effect on the skin. The other important ingredient, making hydroderm so effective is
                                 “marine collagen” which along with Vyo-Serum helps revitalize the skin.</p>
                         </div>
-                        <div class="blog__details__quote">
-                            <i class="fa fa-quote-left"></i>
-                            <p>“When designing an advertisement for a particular product many things should be
-                                researched like where it should be displayed.”</p>
-                            <h6>_ John Smith _</h6>
-                        </div>
                         <div class="blog__details__text">
                             <p>Vyo-Serum along with tightening the skin also reduces the fine lines indicating aging of
                                 skin. Problems like dark circles, puffiness, and crow’s feet can be control from the
