@@ -2,7 +2,7 @@
     "routes": [
         {
             "src": "/",
-            "destination": "/index.php?controller=home"
+            "dest": "/index.php?controller=home"
         }
     ]
 }
