@@ -55,6 +55,7 @@ if(isset($_POST['user_name']) && isset($_POST['user_password'])) {
     <link rel="stylesheet" href="./public/css/owl.carousel.min.css" type="text/css">
     <link rel="stylesheet" href="./public/css/slicknav.min.css" type="text/css">
     <link rel="stylesheet" href="./public/css/style.css" type="text/css">
+    <link rel="icon" href="./public/img/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <!-- Header -->
