@@ -19,20 +19,8 @@ Nếu danh sách sản phẩm quá dài, trang web sẽ cung cấp chức năng 
 Người dùng có thể sắp xếp các sản phẩm theo danh mục mà họ quan tâm. Ví dụ: áo, quần, giày,...
 
 6. Lọc sản phẩm
-Người dùng có thể lọc các sản phẩm theo một số tiêu chí như giá, kích cỡ, màu sắc,...
+Người dùng có thể lọc các sản phẩm theo một số tiêu chí như giá,...
 
 7. Tìm kiếm sản phẩm
 Người dùng có thể tìm kiếm các sản phẩm bằng từ khóa. Kết quả tìm kiếm sẽ hiển thị danh sách các sản phẩm phù hợp với từ khóa đó.
 
-8. Trang admin
-Trang admin sẽ cung cấp giao diện để quản lý các hoạt động của cửa hàng. Admin có quyền quản lý danh sách sản phẩm, quản lý tài khoản người dùng, xem đơn hàng và thống kê doanh thu.
-
-Hướng dẫn cài đặt
-Sao chép project từ kho lưu trữ về máy local của bạn.
-Cấu hình môi trường web server trỏ tới thư mục chứa project.
-Cấu hình cơ sở dữ liệu MySQL và import file `database.sql` để tạo bảng và dữ liệu cần thiết.
-Cấu hình kết nối cơ sở dữ liệu trong file `config/db.php`.
-Chạy trang web bằng trình duyệt và sử dụng các chức năng đã mô tả ở trên.
-Yêu cầu hệ thống
-PHP version 7.0 trở lên
-MySQL database
