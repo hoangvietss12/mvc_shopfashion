@@ -1,8 +1,16 @@
 {
+    "version": 2,
+    "builds": [
+      {
+        "src": "index.php",
+        "use": "@vercel/php"
+      }
+    ],
     "routes": [
-        {
-            "src": "/",
-            "dest": "/index.php?controller=home"
-        }
+      {
+        "src": "/(.*)",
+        "dest": "index.php"
+      }
     ]
-}
+  }
+  
