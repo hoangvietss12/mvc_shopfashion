@@ -380,7 +380,7 @@
                     <div class="blog__item">
                         <div class="blog__item__pic set-bg" data-setbg="./public/img/blog/blog-3.jpg"></div>
                         <div class="blog__item__text">
-                            <span><img src="../public/img/icon/calendar.png" alt=""> 28 Tháng Năm 2023</span>
+                            <span><img src="./public/img/icon/calendar.png" alt=""> 28 Tháng Năm 2023</span>
                             <h5>Lợi ích sức khỏe của kính râm</h5>
                             <a href="#">Xem thêm</a>
                         </div>
